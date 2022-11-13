@@ -3,7 +3,10 @@ package org.example.homework_1.task_1;
 import org.example.homework_1.task_1.SortArray;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * @author Omenyuk Vyacheslav
+ * JUnit-test for sorting numbers
+ */
 class SortArrayTest {
 
     @org.junit.jupiter.api.Test

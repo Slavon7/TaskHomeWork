@@ -2,6 +2,9 @@ package org.example.homework_1.task_1;
 
 public class Main {
 
+    /**
+     * @author Omenyuk Vyacheslav .
+     */
 
     public static void main(String[] args) {
 

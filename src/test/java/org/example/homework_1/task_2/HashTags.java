@@ -7,7 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * @author Omenyuk Vyacheslav
+ * JUnit-test for top hashtag words
+ */
 class HashTags {
 
     @Test

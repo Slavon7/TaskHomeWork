@@ -2,6 +2,10 @@ package org.example.homework_1.task_3;
 
 import java.util.*;
 
+/**
+ * @author Omenyuk Vyacheslav
+ * A program that sorts geometric shapes by volume
+ */
 public class Main {
     public static void main(String[] args) {
 
@@ -10,6 +14,10 @@ public class Main {
         shape(shapes);
     }
 
+    /*
+    * A method that takes a Map and returns
+    * a sorted collection of 3D shapes by volume
+     */
     public static Map<Integer,String> shape(Map<Integer,String> shapes){
 
         Cube cube = new Cube();

@@ -3,7 +3,9 @@ package org.example.homework_1.task_1;
 import java.util.Arrays;
 
 
-/** The sortArray method takes an array of
+/**
+ *  @author Omenyuk Vyacheslav
+ *  The sortArray method takes an array of
  *  numbers and a variable N - which holds the number of
  *  elements in the array.
  *  The sortArray method fills the array with random

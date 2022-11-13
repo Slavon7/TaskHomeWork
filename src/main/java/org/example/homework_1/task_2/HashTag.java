@@ -2,6 +2,10 @@ package org.example.homework_1.task_2;
 
 import java.util.*;
 
+/**
+ * @author Omenyuk Vyacheslav .
+ */
+
 public class HashTag {
     private final List<String> HashTag = new ArrayList<>();
 
@@ -16,6 +20,7 @@ public class HashTag {
         return hashTag;
     }
 
+    /* Search method for the < # > sign */
     private void parse() {
         StringTokenizer tokens = new StringTokenizer(this.text);
         while (tokens.hasMoreTokens()) {
@@ -25,7 +30,7 @@ public class HashTag {
             }
         }
     }
-
+    /* Takes an arraylist and returns words with # */
     public ArrayList<String> getHashTags() {
         ArrayList<String> unique = new ArrayList<>();
         unique.addAll(HashTag);

@@ -4,6 +4,13 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+/**
+ * @author Omenyuk Vyacheslav
+ * A program that returns the top 5
+ * most frequently mentioned from lists
+ * of text strings that may contain HashTags
+ */
+
 public class Main {
     public static void main(String... args) {
 
@@ -29,17 +36,15 @@ public class Main {
         foundHashTagsWords(comments);
     }
 
+    /* The method accepts an arraylist, finds words and sorts them by top-5 */
     public static Map<String, Long> foundHashTagsWords(ArrayList<String> comments){
 
         HashTag hashTag = HashTag.getHashTag(comments.toString());
-
         ArrayList<String> copyHashWords = new ArrayList<>(hashTag.getHashTags());
 
         Map<String, Long> popHashTags = copyHashWords
                 .stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-
-
 
         Map<String, Long> sortedHashtags = new LinkedHashMap<>();
         popHashTags.entrySet().stream()

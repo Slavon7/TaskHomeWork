@@ -7,10 +7,11 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * @author Omenyuk Vyacheslav
+ * JUnit-test for 3D figures
+ */
 class ShapesTest {
-
-
     @Test
     void shape() {
         Map<Integer,String> shapes = new HashMap<>();
